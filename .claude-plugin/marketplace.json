@@ -1,0 +1,24 @@
+{
+  "name": "aulneau-skills",
+  "description": "aulneau's agent skills and plugins",
+  "owner": {
+    "name": "aulneau"
+  },
+  "plugins": [
+    {
+      "name": "aulneau-skills",
+      "source": "./",
+      "description": "Productivity skills: bookmark corpus and brain-dump posts"
+    },
+    {
+      "name": "effect",
+      "source": "./plugins/effect",
+      "description": "Effect v4 (effect@4.0.0) for agents, with every code example typechecked"
+    },
+    {
+      "name": "pstack",
+      "source": "./plugins/pstack",
+      "description": "poteto's engineering method: poteto-mode, playbooks, principles, and multi-model review"
+    }
+  ]
+}
